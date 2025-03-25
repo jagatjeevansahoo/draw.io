@@ -1,9 +1,66 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.2">
   <diagram name="Page-1" id="Y9DT9FIRturXguFe0GUG">
-    <mxGraphModel>
+    <mxGraphModel dx="1242" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="K-zmCiq9e8GojqGsUePG-1" value="Devices&lt;div&gt;(Android, iOS)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65.9" y="215.13" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K-zmCiq9e8GojqGsUePG-15" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="84.87" y="165.13" width="82.06" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="K-zmCiq9e8GojqGsUePG-16" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="250" y="100" width="243.64999999999998" height="281.56" as="geometry" />
+        </mxCell>
+        <mxCell id="K-zmCiq9e8GojqGsUePG-14" value="" style="group" vertex="1" connectable="0" parent="K-zmCiq9e8GojqGsUePG-16">
+          <mxGeometry width="243.65" height="281.56" as="geometry" />
+        </mxCell>
+        <mxCell id="K-zmCiq9e8GojqGsUePG-3" value="UI (React Native Code)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="K-zmCiq9e8GojqGsUePG-14">
+          <mxGeometry width="243.65" height="32.48769230769231" as="geometry" />
+        </mxCell>
+        <mxCell id="K-zmCiq9e8GojqGsUePG-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="K-zmCiq9e8GojqGsUePG-16">
+          <mxGeometry x="10" y="30" width="220" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="K-zmCiq9e8GojqGsUePG-5" value="Couch Base Lite&lt;div&gt;Workflow for Offline Sync&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="K-zmCiq9e8GojqGsUePG-16">
+          <mxGeometry x="10" y="40" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K-zmCiq9e8GojqGsUePG-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="K-zmCiq9e8GojqGsUePG-16" source="K-zmCiq9e8GojqGsUePG-6" target="K-zmCiq9e8GojqGsUePG-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K-zmCiq9e8GojqGsUePG-6" value="DB" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="K-zmCiq9e8GojqGsUePG-16">
+          <mxGeometry x="20" y="80" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K-zmCiq9e8GojqGsUePG-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="K-zmCiq9e8GojqGsUePG-16" source="K-zmCiq9e8GojqGsUePG-7" target="K-zmCiq9e8GojqGsUePG-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K-zmCiq9e8GojqGsUePG-7" value="Scope" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="K-zmCiq9e8GojqGsUePG-16">
+          <mxGeometry x="115" y="80" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K-zmCiq9e8GojqGsUePG-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="K-zmCiq9e8GojqGsUePG-16" source="K-zmCiq9e8GojqGsUePG-8" target="K-zmCiq9e8GojqGsUePG-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K-zmCiq9e8GojqGsUePG-8" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.folder;" vertex="1" parent="K-zmCiq9e8GojqGsUePG-16">
+          <mxGeometry x="127" y="170" width="78" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="K-zmCiq9e8GojqGsUePG-9" value="Collection" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="K-zmCiq9e8GojqGsUePG-16">
+          <mxGeometry x="130" y="170" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="K-zmCiq9e8GojqGsUePG-10" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#3B8DF1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.files" vertex="1" parent="K-zmCiq9e8GojqGsUePG-16">
+          <mxGeometry x="20" y="173.97000000000003" width="65" height="63.05" as="geometry" />
+        </mxCell>
+        <mxCell id="K-zmCiq9e8GojqGsUePG-18" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/social-media-outline-6/128/SocialMedia_Website-Outline-128.png" vertex="1" parent="1">
+          <mxGeometry x="560" y="181.13" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="K-zmCiq9e8GojqGsUePG-19" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.498;exitY=-0.026;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="K-zmCiq9e8GojqGsUePG-15" target="K-zmCiq9e8GojqGsUePG-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="240" as="sourcePoint" />
+            <mxPoint x="450" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K-zmCiq9e8GojqGsUePG-22" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.electro-mechanical.pushbuttonBreak2;elSwitchState=off;" vertex="1" parent="1">
+          <mxGeometry x="480" y="200" width="93.74" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
